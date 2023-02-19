@@ -24,6 +24,8 @@ import "swiper/css/pagination";
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import SmallSpinner from '../Spinner/SmallSpinner';
+
+//content info page
 const Content = () => {
     const [products, setProducts] = useState([])
 //  data fatch using useEffect

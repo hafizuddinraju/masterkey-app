@@ -5,15 +5,17 @@ import image3 from '../../asset/image 3.png'
 import {RiFacebookFill} from 'react-icons/ri';
 import {AiOutlineTwitter} from 'react-icons/ai';
 import {FaPinterestP} from 'react-icons/fa';
+
+// team Info page
 const Contact = () => {
     return (
         <div>
             <h1 className='text-4xl font-semibold text-center mt-10'>Team Awesome</h1>
             <div className='flex items-center bg-yellow-400 px-10 justify-between mx-20 mt-20 gap-5 md:gap-7 lg:gap-7'>
-                <img className='h-[250px]  ' 
+                <img className='lg:h-[200px] md:h-[200px] h-[150px]' 
                 src={image1} alt="" />
-                <img className='h-[250px]' src={image2} alt="" />
-                <img className='h-[250px]' src={image3} alt="" />
+                <img className='lg:h-[200px] md:h-[200px] h-[150px]' src={image2} alt="" />
+                <img className='lg:h-[200px] md:h-[200px] h-[150px]' src={image3} alt="" />
 
             </div>
             <div className='flex items-center pb-10 bg-gray-200 px-10 justify-between mx-20  gap-5 md:gap-7 lg:gap-7'>
